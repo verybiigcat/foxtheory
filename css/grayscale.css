@@ -352,18 +352,31 @@ ul {
 	margin-right: 70px;
 }
 
-#website, #security li {
+#website li {
     display: block;
 }
 
-#website, #security li:before {
+#security li {
+    display: block;
+}
+
+#website li:before {
 	content: '✓';
     color: #e2a500;
 	margin-right: 10px;
 }
 
-#website, #security h2 {
+#security li:before {
+	content: '✓';
+    color: #e2a500;
+	margin-right: 10px;
+}
+
+#security h2 {
 	color: #e2a500 !important;
 }
 
+#website h2 {
+	color: #e2a500 !important;
+}
 
